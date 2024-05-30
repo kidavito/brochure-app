@@ -1,0 +1,23 @@
+.brochure {
+  justify-content: space-between; /* Space between children */
+  width: 300px;
+  height: 300px;
+  margin: 20px auto; /* margin y and margin x */
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brochure h1 {
+  font-size: 24px;
+}
+
+.brochure p {
+  font-size: 16px;
+}
+
+.brochure img {
+  width: 200px;
+  height: 200px;
+}
