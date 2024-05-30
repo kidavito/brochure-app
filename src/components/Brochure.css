@@ -1,23 +1,48 @@
 .brochure {
-  justify-content: space-between; /* Space between children */
   width: 300px;
   height: 300px;
-  margin: 20px auto; /* margin y and margin x */
   border: 1px solid #000;
-  padding: 20px;
+  /* padding: 20px; */
+  margin: 20px auto; /* margin y and margin x */
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  background-size: cover; /* Ensures the background image covers the entire element */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
 }
 
 .brochure h1 {
-  font-size: 24px;
+  font-size: 1.2em;
+  margin: 5px 0; /* margin y and margin x */
+  padding: 5px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Optional: add a background to ensure text readability */
 }
 
 .brochure p {
-  font-size: 16px;
+  font-size: 0.9em;
+  line-height: 1.2;
+  margin: 5px 0; /* margin y and margin x */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Optional: add a background to ensure text readability */
 }
 
-.brochure img {
-  width: 200px;
-  height: 200px;
-}
+/* .brochure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+} */
